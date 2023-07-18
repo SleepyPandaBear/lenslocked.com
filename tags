@@ -1,0 +1,298 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/86bdb84c/
+.btn-delete	assets/styles.css	/^.btn-delete {$/;"	c
+.thumbnail	assets/styles.css	/^.thumbnail {$/;"	c
+Alert	views/data.go	/^    Alert *Alert$/;"	m	struct:views.Data	typeref:typename:*Alert
+Alert	views/data.go	/^type Alert struct {$/;"	s	package:views
+AlertError	views/data.go	/^func (d *Data) AlertError(msg string) {$/;"	f	struct:views.Data
+AlertLvlError	views/data.go	/^    AlertLvlError = "danger"$/;"	c	package:views
+AlertLvlInfo	views/data.go	/^    AlertLvlInfo = "info"$/;"	c	package:views
+AlertLvlSuccess	views/data.go	/^    AlertLvlSuccess = "success"$/;"	c	package:views
+AlertLvlWarning	views/data.go	/^    AlertLvlWarning = "warning"$/;"	c	package:views
+AlertMsgGeneric	views/data.go	/^    AlertMsgGeneric = "Someting went wrong. Please try again, and cocntacct us if the problem pe/;"	c	package:views
+Apply	middleware/require_user.go	/^func (mw *RequireUser) Apply(next http.Handler) http.HandlerFunc {$/;"	f	struct:middleware.RequireUser	typeref:typename:http.HandlerFunc
+Apply	middleware/require_user.go	/^func (mw *User) Apply(next http.Handler) http.HandlerFunc {$/;"	f	struct:middleware.User	typeref:typename:http.HandlerFunc
+ApplyFn	middleware/require_user.go	/^func (mw *RequireUser) ApplyFn(next http.HandlerFunc) http.HandlerFunc {$/;"	f	struct:middleware.RequireUser	typeref:typename:http.HandlerFunc
+ApplyFn	middleware/require_user.go	/^func (mw *User) ApplyFn(next http.HandlerFunc) http.HandlerFunc {$/;"	f	struct:middleware.User	typeref:typename:http.HandlerFunc
+Authenticate	models/users.go	/^    Authenticate(email, password string) (*User, error)$/;"	n	interface:models.UserService	typeref:typename:(*User, error)
+Authenticate	models/users.go	/^func (us *userService) Authenticate(email, password string) (*User, error) {$/;"	f	struct:models.userService	typeref:typename:(*User, error)
+AutoMigrate	models/services.go	/^func (s *Services) AutoMigrate() error {$/;"	f	struct:models.Services	typeref:typename:error
+ByEmail	models/users.go	/^    ByEmail(email string) (*User, error)$/;"	n	interface:models.UserDB	typeref:typename:(*User, error)
+ByEmail	models/users.go	/^func (ug userGorm) ByEmail(email string) (*User, error) {$/;"	f	struct:models.userGorm	typeref:typename:(*User, error)
+ByEmail	models/users.go	/^func (uv *userValidator) ByEmail(email string) (*User, error) {$/;"	f	struct:models.userValidator	typeref:typename:(*User, error)
+ByGalleryID	models/images.go	/^    ByGalleryID(galleryID uint) ([]Image, error)$/;"	n	interface:models.ImageService	typeref:typename:([]Image, error)
+ByGalleryID	models/images.go	/^func (is *imageService) ByGalleryID(galleryID uint) ([]Image, error) {$/;"	f	struct:models.imageService	typeref:typename:([]Image, error)
+ByID	models/galleries.go	/^    ByID(id uint) (*Gallery, error)$/;"	n	interface:models.GalleryDB	typeref:typename:(*Gallery, error)
+ByID	models/galleries.go	/^func (gg *galleryGorm) ByID(id uint) (*Gallery, error) {$/;"	f	struct:models.galleryGorm	typeref:typename:(*Gallery, error)
+ByID	models/users.go	/^    ByID(id uint) (*User, error)$/;"	n	interface:models.UserDB	typeref:typename:(*User, error)
+ByID	models/users.go	/^    ByID(id uint) (*User, error)$/;"	n	interface:models.UserReader	typeref:typename:(*User, error)
+ByID	models/users.go	/^func (ug userGorm) ByID(id uint) (*User, error) {$/;"	f	struct:models.userGorm	typeref:typename:(*User, error)
+ByID	models/users.go	/^func (uv *userValidator) ByID(id uint) (*User, error) {$/;"	f	struct:models.userValidator	typeref:typename:(*User, error)
+ByRemember	models/users.go	/^    ByRemember(token string) (*User, error)$/;"	n	interface:models.UserDB	typeref:typename:(*User, error)
+ByRemember	models/users.go	/^    ByRemember(token string) (*User, error)$/;"	n	interface:models.UserReader	typeref:typename:(*User, error)
+ByRemember	models/users.go	/^func (ug *userGorm) ByRemember(rememberHash string) (*User, error) {$/;"	f	struct:models.userGorm	typeref:typename:(*User, error)
+ByRemember	models/users.go	/^func (uv *userValidator) ByRemember(token string) (*User, error) {$/;"	f	struct:models.userValidator	typeref:typename:(*User, error)
+ByUserID	models/galleries.go	/^    ByUserID(userID uint) ([]Gallery, error)$/;"	n	interface:models.GalleryDB	typeref:typename:([]Gallery, error)
+ByUserID	models/galleries.go	/^func (gg *galleryGorm) ByUserID(userID uint) ([]Gallery, error) {$/;"	f	struct:models.galleryGorm	typeref:typename:([]Gallery, error)
+Bytes	rand/strings.go	/^func Bytes(n int) ([]byte, error) {$/;"	f	package:rand	typeref:typename:([]byte, error)
+Close	models/services.go	/^func (s *Services) Close() error {$/;"	f	struct:models.Services	typeref:typename:error
+Config	config.go	/^type Config struct {$/;"	s	package:main
+ConnectionInfo	config.go	/^func (c PostgresConfig) ConnectionInfo() string {$/;"	f	struct:main.PostgresConfig	typeref:typename:string
+Contact	controllers/static.go	/^    Contact *views.View$/;"	m	struct:controllers.Static	typeref:typename:*views.View
+CookieTest	controllers/users.go	/^func (u *Users) CookieTest(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Users
+Create	controllers/galleries.go	/^func (g *Galleries) Create(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+Create	controllers/users.go	/^func (u *Users) Create(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Users
+Create	models/galleries.go	/^    Create(gallery *Gallery) error$/;"	n	interface:models.GalleryDB	typeref:typename:error
+Create	models/galleries.go	/^func (gg *galleryGorm) Create(gallery *Gallery) error {$/;"	f	struct:models.galleryGorm	typeref:typename:error
+Create	models/galleries.go	/^func (gv *galleryValidator) Create(gallery *Gallery) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+Create	models/images.go	/^    Create(galleryID uint, r io.Reader, filename string) error$/;"	n	interface:models.ImageService	typeref:typename:error
+Create	models/images.go	/^func (is *imageService) Create(galleryID uint, r io.Reader, filename string) error {$/;"	f	struct:models.imageService	typeref:typename:error
+Create	models/users.go	/^    Create(user *User) error$/;"	n	interface:models.UserDB	typeref:typename:error
+Create	models/users.go	/^func (ug userGorm) Create(user *User) error {$/;"	f	struct:models.userGorm	typeref:typename:error
+Create	models/users.go	/^func (uv *userValidator) Create(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+Data	views/data.go	/^type Data struct {$/;"	s	package:views
+Database	config.go	/^    Database PostgresConfig "json:\\"database\\""$/;"	m	struct:main.Config	typeref:typename:PostgresConfig
+DefaultConfig	config.go	/^func DefaultConfig() Config {$/;"	f	package:main	typeref:typename:Config
+DefaultPostgresConfig	config.go	/^func DefaultPostgresConfig() PostgresConfig {$/;"	f	package:main	typeref:typename:PostgresConfig
+Delete	controllers/galleries.go	/^func (g *Galleries) Delete(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+Delete	models/galleries.go	/^    Delete(id uint) error$/;"	n	interface:models.GalleryDB	typeref:typename:error
+Delete	models/galleries.go	/^func (gg *galleryGorm) Delete(id uint) error {$/;"	f	struct:models.galleryGorm	typeref:typename:error
+Delete	models/galleries.go	/^func (gv *galleryValidator) Delete(id uint) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+Delete	models/images.go	/^    Delete(i *Image) error$/;"	n	interface:models.ImageService	typeref:typename:error
+Delete	models/images.go	/^func (is *imageService) Delete(i *Image) error {$/;"	f	struct:models.imageService	typeref:typename:error
+Delete	models/users.go	/^    Delete(id uint) error$/;"	n	interface:models.UserDB	typeref:typename:error
+Delete	models/users.go	/^func (ug userGorm) Delete(id uint) error {$/;"	f	struct:models.userGorm	typeref:typename:error
+Delete	models/users.go	/^func (uv *userValidator) Delete(id uint) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+DestructiveReset	models/services.go	/^func (s *Services) DestructiveReset() error {$/;"	f	struct:models.Services	typeref:typename:error
+Dialect	config.go	/^func (c PostgresConfig) Dialect() string {$/;"	f	struct:main.PostgresConfig	typeref:typename:string
+Edit	controllers/galleries.go	/^func (g *Galleries) Edit(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+EditGallery	controllers/galleries.go	/^    EditGallery = "edit_gallery"$/;"	c	package:controllers
+EditView	controllers/galleries.go	/^    EditView *views.View$/;"	m	struct:controllers.Galleries	typeref:typename:*views.View
+Email	controllers/users.go	/^    Email string "schema:\\"email\\""$/;"	m	struct:controllers.LoginForm	typeref:typename:string
+Email	controllers/users.go	/^    Email string "schema:\\"email\\""$/;"	m	struct:controllers.SignupForm	typeref:typename:string
+Email	models/users.go	/^    Email string "gorm:\\"not null; unique_index\\""$/;"	m	struct:models.User	typeref:typename:string
+Env	config.go	/^    Env string "json:\\"env\\""$/;"	m	struct:main.Config	typeref:typename:string
+ErrEmailInvalid	models/users.go	/^    ErrEmailInvalid modelError = "models: email address is not valid"$/;"	c	package:models	typeref:typename:modelError
+ErrEmailRequired	models/users.go	/^    ErrEmailRequired modelError = "models: email address is required"$/;"	c	package:models	typeref:typename:modelError
+ErrEmailTaken	models/users.go	/^    ErrEmailTaken modelError = "models: email address is already taken"$/;"	c	package:models	typeref:typename:modelError
+ErrIDInvalid	models/users.go	/^    ErrIDInvalid modelError = "models: ID provided was invalid"$/;"	c	package:models	typeref:typename:modelError
+ErrNotFound	models/users.go	/^    ErrNotFound modelError = "models: resource not found"$/;"	c	package:models	typeref:typename:modelError
+ErrPasswordIncorrect	models/users.go	/^    ErrPasswordIncorrect modelError = "models: incorrect password provided"$/;"	c	package:models	typeref:typename:modelError
+ErrPasswordRequired	models/users.go	/^    ErrPasswordRequired modelError = "models: password is required"$/;"	c	package:models	typeref:typename:modelError
+ErrPasswordTooShort	models/users.go	/^    ErrPasswordTooShort modelError = "models: password must be at least 8 characters long"$/;"	c	package:models	typeref:typename:modelError
+ErrRememberRequired	models/users.go	/^    ErrRememberRequired modelError = "models: remember token is required"$/;"	c	package:models	typeref:typename:modelError
+ErrRememberTokenTooShort	models/users.go	/^    ErrRememberTokenTooShort modelError = "models: remeber token must be at least 32 bytes"$/;"	c	package:models	typeref:typename:modelError
+ErrTileRequired	models/galleries.go	/^    ErrTileRequired modelError = "models: title is required"$/;"	c	package:models	typeref:typename:modelError
+ErrUserIDRequired	models/galleries.go	/^    ErrUserIDRequired modelError = "models: user ID is required"$/;"	c	package:models	typeref:typename:modelError
+Error	models/users.go	/^func (e modelError) Error() string {$/;"	f	type:models.modelError	typeref:typename:string
+Filename	models/images.go	/^    Filename string$/;"	m	struct:models.Image	typeref:typename:string
+Galleries	controllers/galleries.go	/^type Galleries struct {$/;"	s	package:controllers
+Gallery	models/galleries.go	/^type Gallery struct {$/;"	s	package:models
+Gallery	models/services.go	/^    Gallery GalleryService$/;"	m	struct:models.Services	typeref:typename:GalleryService
+GalleryDB	models/galleries.go	/^    GalleryDB$/;"	M	struct:models.galleryService	typeref:typename:GalleryDB
+GalleryDB	models/galleries.go	/^    GalleryDB$/;"	M	struct:models.galleryValidator	typeref:typename:GalleryDB
+GalleryDB	models/galleries.go	/^type GalleryDB interface {$/;"	i	package:models
+GalleryForm	controllers/galleries.go	/^type GalleryForm struct {$/;"	s	package:controllers
+GalleryID	models/images.go	/^    GalleryID uint$/;"	m	struct:models.Image	typeref:typename:uint
+GalleryService	models/galleries.go	/^type GalleryService interface {$/;"	i	package:models
+HMAC	hash/hmac.go	/^type HMAC struct {$/;"	s	package:hash
+HMACKey	config.go	/^    HMACKey string "json:\\"hmac_key\\""$/;"	m	struct:main.Config	typeref:typename:string
+Hash	hash/hmac.go	/^func (h HMAC) Hash(input string) string {$/;"	f	struct:hash.HMAC	typeref:typename:string
+Home	controllers/static.go	/^    Home *views.View$/;"	m	struct:controllers.Static	typeref:typename:*views.View
+Host	config.go	/^    Host string "json:\\"host\\""$/;"	m	struct:main.PostgresConfig	typeref:typename:string
+Image	models/images.go	/^type Image struct {$/;"	s	package:models
+Image	models/services.go	/^    Image ImageService$/;"	m	struct:models.Services	typeref:typename:ImageService
+ImageDelete	controllers/galleries.go	/^func (g *Galleries) ImageDelete(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+ImageService	models/images.go	/^type ImageService interface {$/;"	i	package:models
+ImageUpload	controllers/galleries.go	/^func (g *Galleries) ImageUpload(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+Images	models/galleries.go	/^    Images []Image "gorm:\\"-\\""$/;"	m	struct:models.Gallery	typeref:typename:[]Image
+ImagesSplitN	models/galleries.go	/^func (g *Gallery) ImagesSplitN(n int) [][]Image {$/;"	f	struct:models.Gallery	typeref:typename:[][]Image
+Index	controllers/galleries.go	/^func (g *Galleries) Index(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+IndexGalleries	controllers/galleries.go	/^    IndexGalleries = "index_galleries"$/;"	c	package:controllers
+IndexView	controllers/galleries.go	/^    IndexView *views.View$/;"	m	struct:controllers.Galleries	typeref:typename:*views.View
+IsProd	config.go	/^func (c Config) IsProd() bool {$/;"	f	struct:main.Config	typeref:typename:bool
+Layout	views/view.go	/^    Layout string$/;"	m	struct:views.View	typeref:typename:string
+LayoutDir	views/view.go	/^    LayoutDir string = ".\/views\/layouts\/"$/;"	v	package:views	typeref:typename:string
+Level	views/data.go	/^    Level string$/;"	m	struct:views.Alert	typeref:typename:string
+LoadConfig	config.go	/^func LoadConfig(configReq bool) Config {$/;"	f	package:main	typeref:typename:Config
+Login	controllers/users.go	/^func (u *Users) Login(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Users
+LoginForm	controllers/users.go	/^type LoginForm struct {$/;"	s	package:controllers
+LoginView	controllers/users.go	/^    LoginView *views.View$/;"	m	struct:controllers.Users	typeref:typename:*views.View
+Logout	controllers/users.go	/^func (u *Users) Logout(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Users
+Message	views/data.go	/^    Message string$/;"	m	struct:views.Alert	typeref:typename:string
+Model	models/galleries.go	/^    gorm.Model$/;"	M	struct:models.Gallery	typeref:typename:gorm.Model
+Model	models/users.go	/^    gorm.Model$/;"	M	struct:models.User	typeref:typename:gorm.Model
+NBytes	rand/strings.go	/^func NBytes(base64String string) (int, error) {$/;"	f	package:rand	typeref:typename:(int, error)
+Name	config.go	/^    Name string "json:\\"name\\""$/;"	m	struct:main.PostgresConfig	typeref:typename:string
+Name	controllers/users.go	/^    Name string "schema:\\"name\\""$/;"	m	struct:controllers.SignupForm	typeref:typename:string
+Name	models/users.go	/^    Name string$/;"	m	struct:models.User	typeref:typename:string
+New	controllers/galleries.go	/^    New *views.View$/;"	m	struct:controllers.Galleries	typeref:typename:*views.View
+New	controllers/users.go	/^func (u *Users) New(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Users
+NewGalleries	controllers/galleries.go	/^func NewGalleries(gs models.GalleryService, is models.ImageService, $/;"	f	package:controllers	typeref:typename:*Galleries
+NewGalleryService	models/galleries.go	/^func NewGalleryService(db *gorm.DB) GalleryService {$/;"	f	package:models	typeref:typename:GalleryService
+NewHMAC	hash/hmac.go	/^func NewHMAC(key string) HMAC {$/;"	f	package:hash	typeref:typename:HMAC
+NewImageService	models/images.go	/^func NewImageService() ImageService {$/;"	f	package:models	typeref:typename:ImageService
+NewServices	models/services.go	/^func NewServices(cfgs ...ServicesConfig) (*Services, error) {$/;"	f	package:models	typeref:typename:(*Services, error)
+NewStatic	controllers/static.go	/^func NewStatic() *Static {$/;"	f	package:controllers	typeref:typename:*Static
+NewUserService	models/users.go	/^func NewUserService(db *gorm.DB, pepper, hmacKey string) UserService {$/;"	f	package:models	typeref:typename:UserService
+NewUsers	controllers/users.go	/^func NewUsers(us models.UserService) *Users {$/;"	f	package:controllers	typeref:typename:*Users
+NewView	controllers/users.go	/^    NewView *views.View$/;"	m	struct:controllers.Users	typeref:typename:*views.View
+NewView	views/view.go	/^func NewView(layout string, files ...string) *View {$/;"	f	package:views	typeref:typename:*View
+Password	config.go	/^    Password string "json:\\"password\\""$/;"	m	struct:main.PostgresConfig	typeref:typename:string
+Password	controllers/users.go	/^    Password string "schema:\\"password\\""$/;"	m	struct:controllers.LoginForm	typeref:typename:string
+Password	controllers/users.go	/^    Password string "schema:\\"password\\""$/;"	m	struct:controllers.SignupForm	typeref:typename:string
+Password	models/users.go	/^    Password string "gorm:\\"-\\""$/;"	m	struct:models.User	typeref:typename:string
+PasswordHash	models/users.go	/^    PasswordHash string "gorm:\\"not null\\""$/;"	m	struct:models.User	typeref:typename:string
+Path	models/images.go	/^func (i *Image) Path() string {$/;"	f	struct:models.Image	typeref:typename:string
+Pepper	config.go	/^    Pepper string "json:\\"pepper\\""$/;"	m	struct:main.Config	typeref:typename:string
+Port	config.go	/^    Port int "json:\\"port\\""$/;"	m	struct:main.Config	typeref:typename:int
+Port	config.go	/^    Port int "json:\\"port\\""$/;"	m	struct:main.PostgresConfig	typeref:typename:int
+PostgresConfig	config.go	/^type PostgresConfig struct {$/;"	s	package:main
+Public	models/users.go	/^func (e modelError) Public() string {$/;"	f	type:models.modelError	typeref:typename:string
+Public	views/data.go	/^    Public() string$/;"	n	interface:views.PublicError	typeref:typename:string
+PublicError	views/data.go	/^type PublicError interface {$/;"	i	package:views
+RelativePath	models/images.go	/^func (i *Image) RelativePath() string {$/;"	f	struct:models.Image	typeref:typename:string
+Remember	models/users.go	/^    Remember string "gorm:\\"-\\""$/;"	m	struct:models.User	typeref:typename:string
+RememberHash	models/users.go	/^    RememberHash string "gorm:\\"not null; unique_index\\""$/;"	m	struct:models.User	typeref:typename:string
+RememberToken	rand/strings.go	/^func RememberToken() (string, error) {$/;"	f	package:rand	typeref:typename:(string, error)
+RememberTokenBytes	rand/strings.go	/^const RememberTokenBytes = 32$/;"	c	package:rand
+Render	views/view.go	/^func (v *View) Render(w http.ResponseWriter, r *http.Request, data interface{}) {$/;"	f	struct:views.View
+RequireUser	middleware/require_user.go	/^type RequireUser struct{}$/;"	s	package:middleware
+ServeHTTP	views/view.go	/^func (v *View) ServeHTTP(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:views.View
+Services	models/services.go	/^type Services struct {$/;"	s	package:models
+ServicesConfig	models/services.go	/^type ServicesConfig func(*Services) error$/;"	t	package:models	typeref:typename:func(*Services) error
+SetAlert	views/data.go	/^func (d *Data) SetAlert(err error) {$/;"	f	struct:views.Data
+Show	controllers/galleries.go	/^func (g *Galleries) Show(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+ShowGallery	controllers/galleries.go	/^    ShowGallery = "show_gallery"$/;"	c	package:controllers
+ShowView	controllers/galleries.go	/^    ShowView *views.View$/;"	m	struct:controllers.Galleries	typeref:typename:*views.View
+SignupForm	controllers/users.go	/^type SignupForm struct {$/;"	s	package:controllers
+Static	controllers/static.go	/^type Static struct {$/;"	s	package:controllers
+String	rand/strings.go	/^func String(nBytes int) (string, error) {$/;"	f	package:rand	typeref:typename:(string, error)
+Template	views/view.go	/^    Template *template.Template$/;"	m	struct:views.View	typeref:typename:*template.Template
+TemplateDir	views/view.go	/^    TemplateDir string = ".\/views\/"$/;"	v	package:views	typeref:typename:string
+TemplateExt	views/view.go	/^    TemplateExt string = ".tmpl"$/;"	v	package:views	typeref:typename:string
+Title	controllers/galleries.go	/^    Title string "schema:\\"title\\""$/;"	m	struct:controllers.GalleryForm	typeref:typename:string
+Title	models/galleries.go	/^    Title string "gorm:\\"not_null\\""$/;"	m	struct:models.Gallery	typeref:typename:string
+Update	controllers/galleries.go	/^func (g *Galleries) Update(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:controllers.Galleries
+Update	models/galleries.go	/^    Update(gallery *Gallery) error$/;"	n	interface:models.GalleryDB	typeref:typename:error
+Update	models/galleries.go	/^func (gg *galleryGorm) Update(gallery *Gallery) error {$/;"	f	struct:models.galleryGorm	typeref:typename:error
+Update	models/galleries.go	/^func (gv *galleryValidator) Update(gallery *Gallery) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+Update	models/users.go	/^    Update(user *User) error$/;"	n	interface:models.UserDB	typeref:typename:error
+Update	models/users.go	/^func (ug userGorm) Update(user *User) error {$/;"	f	struct:models.userGorm	typeref:typename:error
+Update	models/users.go	/^func (uv *userValidator) Update(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+User	config.go	/^    User string "json:\\"user\\""$/;"	m	struct:main.PostgresConfig	typeref:typename:string
+User	context/context.go	/^func User(ctx context.Context) *models.User {$/;"	f	package:context	typeref:typename:*models.User
+User	middleware/require_user.go	/^type User struct {$/;"	s	package:middleware
+User	models/services.go	/^    User UserService$/;"	m	struct:models.Services	typeref:typename:UserService
+User	models/users.go	/^type User struct {$/;"	s	package:models
+User	views/data.go	/^    User *models.User$/;"	m	struct:views.Data	typeref:typename:*models.User
+UserDB	models/users.go	/^    UserDB$/;"	M	struct:models.userService	typeref:typename:UserDB
+UserDB	models/users.go	/^    UserDB$/;"	M	struct:models.userValidator	typeref:typename:UserDB
+UserDB	models/users.go	/^type UserDB interface {$/;"	i	package:models
+UserID	models/galleries.go	/^    UserID uint "gorm:\\"not_null; index\\""$/;"	m	struct:models.Gallery	typeref:typename:uint
+UserReader	models/users.go	/^type UserReader interface {$/;"	i	package:models
+UserService	middleware/require_user.go	/^    models.UserService$/;"	M	struct:middleware.User	typeref:typename:models.UserService
+UserService	models/users.go	/^type UserService interface {$/;"	i	package:models
+Users	controllers/users.go	/^type Users struct {$/;"	s	package:controllers
+View	views/view.go	/^type View struct {$/;"	s	package:views
+WithGallery	models/services.go	/^func WithGallery() ServicesConfig {$/;"	f	package:models	typeref:typename:ServicesConfig
+WithGorm	models/services.go	/^func WithGorm(dialect, connectionInfo string) ServicesConfig {$/;"	f	package:models	typeref:typename:ServicesConfig
+WithImage	models/services.go	/^func WithImage() ServicesConfig {$/;"	f	package:models	typeref:typename:ServicesConfig
+WithLogMode	models/services.go	/^func WithLogMode(mode bool) ServicesConfig {$/;"	f	package:models	typeref:typename:ServicesConfig
+WithUser	context/context.go	/^func WithUser(ctx context.Context, user *models.User) context.Context {$/;"	f	package:context	typeref:typename:context.Context
+WithUser	models/services.go	/^func WithUser(pepper, hmacKey string) ServicesConfig {$/;"	f	package:models	typeref:typename:ServicesConfig
+Yield	views/data.go	/^    Yield interface{}$/;"	m	struct:views.Data	typeref:typename:interface{}
+addTemplateExt	views/view.go	/^func addTemplateExt(files []string) {$/;"	f	package:views
+addTemplatePath	views/view.go	/^func addTemplatePath(files []string) {$/;"	f	package:views
+bcryptPassword	models/users.go	/^func (uv *userValidator) bcryptPassword(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+context	context/context.go	/^package context$/;"	p
+controllers	controllers/galleries.go	/^package controllers$/;"	p
+controllers	controllers/helpers.go	/^package controllers$/;"	p
+controllers	controllers/static.go	/^package controllers$/;"	p
+controllers	controllers/users.go	/^package controllers$/;"	p
+db	models/galleries.go	/^    db *gorm.DB$/;"	m	struct:models.galleryGorm	typeref:typename:*gorm.DB
+db	models/services.go	/^    db *gorm.DB$/;"	m	struct:models.Services	typeref:typename:*gorm.DB
+db	models/users.go	/^    db *gorm.DB$/;"	m	struct:models.userCache	typeref:typename:*gorm.DB
+db	models/users.go	/^    db *gorm.DB$/;"	m	struct:models.userGorm	typeref:typename:*gorm.DB
+dbname	exp/main.go	/^    dbname = "lenslocked_dev"$/;"	c	package:main
+dbname	main.go	/^    dbname = "lenslocked_dev"$/;"	c	package:main
+emailFormat	models/users.go	/^func (uv *userValidator) emailFormat(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+emailIsAvail	models/users.go	/^func (uv *userValidator) emailIsAvail(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+emailRegex	models/users.go	/^    emailRegex *regexp.Regexp$/;"	m	struct:models.userValidator	typeref:typename:*regexp.Regexp
+first	models/users.go	/^func first(db *gorm.DB, dst interface{}) error {$/;"	f	package:models	typeref:typename:error
+footer	assets/styles.css	/^footer {$/;"	s
+galleryByID	controllers/galleries.go	/^func (g *Galleries) galleryByID(w http.ResponseWriter, r *http.Request) (*models.Gallery, error)/;"	f	struct:controllers.Galleries	typeref:typename:(*models.Gallery, error)
+galleryGorm	models/galleries.go	/^type galleryGorm struct {$/;"	s	package:models
+galleryService	models/galleries.go	/^type galleryService struct {$/;"	s	package:models
+galleryValFn	models/galleries.go	/^type galleryValFn func(*Gallery) error$/;"	t	package:models	typeref:typename:func(*Gallery) error
+galleryValidator	models/galleries.go	/^type galleryValidator struct {$/;"	s	package:models
+gs	controllers/galleries.go	/^    gs models.GalleryService$/;"	m	struct:controllers.Galleries	typeref:typename:models.GalleryService
+hash	hash/hmac.go	/^package hash$/;"	p
+hmac	hash/hmac.go	/^    hmac hash.Hash$/;"	m	struct:hash.HMAC	typeref:typename:hash.Hash
+hmac	models/users.go	/^    hmac hash.HMAC$/;"	m	struct:models.userValidator	typeref:typename:hash.HMAC
+hmacRemember	models/users.go	/^func (uv *userValidator) hmacRemember (user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+host	exp/main.go	/^    host = "localhost"$/;"	c	package:main
+host	main.go	/^    host = "localhost"$/;"	c	package:main
+idGreaterThan	models/users.go	/^func (uv *userValidator) idGreaterThan(n uint) userValFn {$/;"	f	struct:models.userValidator	typeref:typename:userValFn
+imagePath	models/images.go	/^func (is *imageService) imagePath(galleryID uint) string {$/;"	f	struct:models.imageService	typeref:typename:string
+imageService	models/images.go	/^type imageService struct{}$/;"	s	package:models
+is	controllers/galleries.go	/^    is models.ImageService$/;"	m	struct:controllers.Galleries	typeref:typename:models.ImageService
+layoutFiles	views/view.go	/^func layoutFiles() []string {$/;"	f	package:views	typeref:typename:[]string
+main	config.go	/^package main$/;"	p
+main	exp/main.go	/^func main() {$/;"	f	package:main
+main	exp/main.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f	package:main
+main	main.go	/^package main$/;"	p
+maxMultipartMem	controllers/galleries.go	/^    maxMultipartMem = 1 << 20$/;"	c	package:controllers
+middleware	middleware/require_user.go	/^package middleware$/;"	p
+mkImagePath	models/images.go	/^func (is *imageService) mkImagePath(galleryID uint) (string, error) {$/;"	f	struct:models.imageService	typeref:typename:(string, error)
+modelError	models/users.go	/^type modelError string$/;"	t	package:models	typeref:typename:string
+models	models/galleries.go	/^package models$/;"	p
+models	models/images.go	/^package models$/;"	p
+models	models/services.go	/^package models$/;"	p
+models	models/users.go	/^package models$/;"	p
+must	main.go	/^func must(err error) {$/;"	f	package:main
+newUserValidator	models/users.go	/^func newUserValidator(udb UserDB, hmac hash.HMAC, pepper string) *userValidator {$/;"	f	package:models	typeref:typename:*userValidator
+nonZeroID	models/galleries.go	/^func (gv *galleryValidator) nonZeroID(gallery *Gallery) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+normalizeEmail	models/users.go	/^func (uv *userValidator) normalizeEmail(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+notFound	main.go	/^func notFound(w http.ResponseWriter, r *http.Request) {$/;"	f	package:main
+parseForm	controllers/helpers.go	/^func parseForm(r *http.Request, dst interface{}) error {$/;"	f	package:controllers	typeref:typename:error
+password	exp/main.go	/^    password = "root"$/;"	c	package:main
+password	main.go	/^    password = "root"$/;"	c	package:main
+passwordHashRequired	models/users.go	/^func (uv *userValidator) passwordHashRequired(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+passwordMinLength	models/users.go	/^func (uv *userValidator) passwordMinLength(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+passwordRequired	models/users.go	/^func (uv *userValidator) passwordRequired(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+pepper	models/users.go	/^    pepper string $/;"	m	struct:models.userValidator	typeref:typename:string
+pepper	models/users.go	/^    pepper string$/;"	m	struct:models.userService	typeref:typename:string
+port	exp/main.go	/^    port = 5432$/;"	c	package:main
+port	main.go	/^    port = 5432$/;"	c	package:main
+privateKey	context/context.go	/^type privateKey string$/;"	t	package:context	typeref:typename:string
+r	controllers/galleries.go	/^    r *mux.Router$/;"	m	struct:controllers.Galleries	typeref:typename:*mux.Router
+rand	rand/strings.go	/^package rand$/;"	p
+rememberHashRequired	models/users.go	/^func (uv *userValidator) rememberHashRequired(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+rememberMinBytes	models/users.go	/^func (uv *userValidator) rememberMinBytes(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+requireEmail	models/users.go	/^func (uv *userValidator) requireEmail(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+runGalleryValFns	models/galleries.go	/^func runGalleryValFns(gallery *Gallery, fns ...galleryValFn) error {$/;"	f	package:models	typeref:typename:error
+runUserValFns	models/users.go	/^func runUserValFns(user *User, fns ...userValFn) error {$/;"	f	package:models	typeref:typename:error
+setRememberIfUnset	models/users.go	/^func (uv *userValidator) setRememberIfUnset(user *User) error {$/;"	f	struct:models.userValidator	typeref:typename:error
+signIn	controllers/users.go	/^func (u *Users) signIn(w http.ResponseWriter, user *models.User) error {$/;"	f	struct:controllers.Users	typeref:typename:error
+titleRequired	models/galleries.go	/^func (gv *galleryValidator) titleRequired(g *Gallery) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+us	controllers/users.go	/^    us models.UserService$/;"	m	struct:controllers.Users	typeref:typename:models.UserService
+user	exp/main.go	/^    user = "postgres"$/;"	c	package:main
+user	main.go	/^    user = "postgres"$/;"	c	package:main
+userCache	models/users.go	/^type userCache struct {$/;"	s	package:models
+userGorm	models/users.go	/^type userGorm struct {$/;"	s	package:models
+userIDRequired	models/galleries.go	/^func (gv *galleryValidator) userIDRequired(g *Gallery) error {$/;"	f	struct:models.galleryValidator	typeref:typename:error
+userKey	context/context.go	/^    userKey privateKey = "user"$/;"	c	package:context	typeref:type:privateKey
+userService	models/users.go	/^type userService struct {$/;"	s	package:models
+userValFn	models/users.go	/^type userValFn func(*User) error$/;"	t	package:models	typeref:typename:func(*User) error
+userValidator	models/users.go	/^type userValidator struct {$/;"	s	package:models
+views	views/data.go	/^package views$/;"	p
+views	views/view.go	/^package views$/;"	p
